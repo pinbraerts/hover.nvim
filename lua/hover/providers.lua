@@ -9,7 +9,7 @@ local M  = {}
 --- @field providers? string[]
 
 --- @class Hover.RegisterProvider
---- @field priority integer
+--- @field priority? integer
 --- @field name string
 --- @field execute fun(opts?: Hover.Options, done: fun(result?: Hover.Result))
 --- @field enabled fun(bufnr: integer): boolean
